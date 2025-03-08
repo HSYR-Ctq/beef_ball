@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>牛肉丸溯源</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f8f9fa;
-            font-size: 48px;
-            font-weight: bold;
-            font-family: Arial, sans-serif;
-        }
-    </style>
+    <title>牛肉丸溯源系统</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    牛肉丸
+    <div class="container">
+        <h1>牛肉丸生产批次溯源</h1>
+        <div id="batch-info">
+            <p>批次ID: <span id="batch-id">-</span></p>
+            <p>加工时间: <span id="processing-time">-</span></p>
+            <p>温度: <span id="temperature">-</span>℃</p>
+            <p>湿度: <span id="humidity">-</span>%</p>
+            <p>操作员: <span id="operator">-</span></p>
+            <p id="hash-status" class="status"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
