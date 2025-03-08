@@ -1,7 +1,0 @@
-{
-  "batch_id": "batch_001",
-  "processing_time_UTC": "2025-03-07T14:30:00Z",
-  "temperature_celsius": 4.5,
-  "humidity_percent": 75.2,
-  "operator": "张三"
-}
